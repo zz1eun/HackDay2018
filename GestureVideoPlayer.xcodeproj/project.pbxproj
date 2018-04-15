@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		157B72D5207D207D00C38934 /* HDVideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B72D3207D207D00C38934 /* HDVideoCollectionViewCell.swift */; };
 		15BF3C83207CFA7A0023AFA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF3C82207CFA7A0023AFA8 /* AppDelegate.swift */; };
-		15BF3C85207CFA7A0023AFA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF3C84207CFA7A0023AFA8 /* ViewController.swift */; };
+		15BF3C85207CFA7A0023AFA8 /* HDHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF3C84207CFA7A0023AFA8 /* HDHomeViewController.swift */; };
 		15BF3C88207CFA7A0023AFA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15BF3C86207CFA7A0023AFA8 /* Main.storyboard */; };
 		15BF3C8A207CFA7A0023AFA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15BF3C89207CFA7A0023AFA8 /* Assets.xcassets */; };
 		15BF3C8D207CFA7A0023AFA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15BF3C8B207CFA7A0023AFA8 /* LaunchScreen.storyboard */; };
+		15F5C152207DCE8B00AD6D01 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F5C151207DCE7600AD6D01 /* AVFoundation.framework */; };
+		15F5C15D207DF9CA00AD6D01 /* HDVideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F5C15C207DF9CA00AD6D01 /* HDVideoPlayerViewController.swift */; };
+		5D102E5E135A346BABEA8232 /* libPods-GestureVideoPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BED9C1837185ED2F400357B /* libPods-GestureVideoPlayer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		157B72D3207D207D00C38934 /* HDVideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDVideoCollectionViewCell.swift; sourceTree = "<group>"; };
 		15BF3C7F207CFA7A0023AFA8 /* GestureVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15BF3C82207CFA7A0023AFA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		15BF3C84207CFA7A0023AFA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15BF3C84207CFA7A0023AFA8 /* HDHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDHomeViewController.swift; sourceTree = "<group>"; };
 		15BF3C87207CFA7A0023AFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15BF3C89207CFA7A0023AFA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15BF3C8C207CFA7A0023AFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15BF3C8E207CFA7A0023AFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15F5C151207DCE7600AD6D01 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		15F5C15C207DF9CA00AD6D01 /* HDVideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDVideoPlayerViewController.swift; sourceTree = "<group>"; };
+		67FCD4A27D983CBBAD86E431 /* Pods-GestureVideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GestureVideoPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GestureVideoPlayer/Pods-GestureVideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		8BED9C1837185ED2F400357B /* libPods-GestureVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GestureVideoPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82FB8432DF475C4B4B33293 /* Pods-GestureVideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GestureVideoPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-GestureVideoPlayer/Pods-GestureVideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15F5C152207DCE8B00AD6D01 /* AVFoundation.framework in Frameworks */,
+				5D102E5E135A346BABEA8232 /* libPods-GestureVideoPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		108A3A7496CB43594EF5B7E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67FCD4A27D983CBBAD86E431 /* Pods-GestureVideoPlayer.debug.xcconfig */,
+				C82FB8432DF475C4B4B33293 /* Pods-GestureVideoPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		157B72D0207D202600C38934 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				157B72D3207D207D00C38934 /* HDVideoCollectionViewCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
 		15BF3C76207CFA7A0023AFA8 = {
 			isa = PBXGroup;
 			children = (
 				15BF3C81207CFA7A0023AFA8 /* GestureVideoPlayer */,
 				15BF3C80207CFA7A0023AFA8 /* Products */,
+				108A3A7496CB43594EF5B7E3 /* Pods */,
+				FC21DB84FD3BBEC9135C7A05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +115,7 @@
 		15BF3C96207CFC440023AFA8 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				15F5C153207DE42A00AD6D01 /* Player */,
 				15BF3C99207CFC650023AFA8 /* Home */,
 			);
 			path = ViewController;
@@ -99,7 +131,7 @@
 		15BF3C98207CFC4F0023AFA8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				15BF3C9C207D05510023AFA8 /* CustomCell */,
+				157B72D0207D202600C38934 /* CustomCell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -107,7 +139,7 @@
 		15BF3C99207CFC650023AFA8 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				15BF3C84207CFA7A0023AFA8 /* ViewController.swift */,
+				15BF3C84207CFA7A0023AFA8 /* HDHomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -129,11 +161,21 @@
 			path = GlobalSupport;
 			sourceTree = "<group>";
 		};
-		15BF3C9C207D05510023AFA8 /* CustomCell */ = {
+		15F5C153207DE42A00AD6D01 /* Player */ = {
 			isa = PBXGroup;
 			children = (
+				15F5C15C207DF9CA00AD6D01 /* HDVideoPlayerViewController.swift */,
 			);
-			path = CustomCell;
+			path = Player;
+			sourceTree = "<group>";
+		};
+		FC21DB84FD3BBEC9135C7A05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15F5C151207DCE7600AD6D01 /* AVFoundation.framework */,
+				8BED9C1837185ED2F400357B /* libPods-GestureVideoPlayer.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15BF3C91207CFA7A0023AFA8 /* Build configuration list for PBXNativeTarget "GestureVideoPlayer" */;
 			buildPhases = (
+				244ED4BAF8B0563A0DE1EEF3 /* [CP] Check Pods Manifest.lock */,
 				15BF3C7B207CFA7A0023AFA8 /* Sources */,
 				15BF3C7C207CFA7A0023AFA8 /* Frameworks */,
 				15BF3C7D207CFA7A0023AFA8 /* Resources */,
@@ -203,13 +246,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		244ED4BAF8B0563A0DE1EEF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GestureVideoPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		15BF3C7B207CFA7A0023AFA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15BF3C85207CFA7A0023AFA8 /* ViewController.swift in Sources */,
+				15BF3C85207CFA7A0023AFA8 /* HDHomeViewController.swift in Sources */,
 				15BF3C83207CFA7A0023AFA8 /* AppDelegate.swift in Sources */,
+				15F5C15D207DF9CA00AD6D01 /* HDVideoPlayerViewController.swift in Sources */,
+				157B72D5207D207D00C38934 /* HDVideoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +410,7 @@
 		};
 		15BF3C92207CFA7A0023AFA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67FCD4A27D983CBBAD86E431 /* Pods-GestureVideoPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -360,6 +427,7 @@
 		};
 		15BF3C93207CFA7A0023AFA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82FB8432DF475C4B4B33293 /* Pods-GestureVideoPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
